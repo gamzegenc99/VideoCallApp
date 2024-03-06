@@ -7,7 +7,7 @@ import Notifications from "./components/Notifications";
 function App() {
     return(
         <>
-          <AppBar position="static" color="primary">
+          <AppBar position="fixed" color="primary">
             <Toolbar>
               <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>Video Call App</Typography>
             </Toolbar>

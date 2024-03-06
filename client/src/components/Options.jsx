@@ -11,14 +11,13 @@ function Options( { children } ) {
     const [calling, setCalling] = useState(false); // created for LoadingButton 
     
     return(
-        <Container sx={ {pb:1,flexGrow:1,width:550}}>
+        <Container sx={{pb:1,width:550 }}>
             <Paper elevation={10} >
                     <form autoComplete="off" noValidate >
                         <Grid container>
                             <Grid item xs={12} md={6} sx={{p:5}} >
                                 <Typography gutterBottom variant="h6">Account Info</Typography>
                                 <TextField label="name" value={name} onChange={(e) => setName(e.target.value)} fullWidth variant="filled" required margin="dense"/> {/**setting value of name w onchange handler Değer değiştirildiğinde geri arama tetiklenir.*/}
-                                {console.log(me)}
                                 <CopyToClipboard text={me}>
                                     <Button variant="contained" fullWidth  startIcon={<Assignment  fontSize="large"/>}>Copy Your ID</Button>
                                 </CopyToClipboard>

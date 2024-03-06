@@ -57,9 +57,7 @@ const port = process.env.PORT || 5000;
     server.listen(port, () => {
         console.log(`Express server listening on port http://localhost:${port}`);  
     });
-    server.on('error', (error) => {
-        console.error('An error occurred during server initialization:', error);
-    });
+
     
 
     

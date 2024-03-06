@@ -4,7 +4,7 @@ import './styles.css';
 import App from './App'; 
 import { ContextProvider} from './SocketContext';
 //import reportWebVitals from './reportWebVitals';
-// reacy.srict mode yerine context wrapper ekledimmmmm!
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

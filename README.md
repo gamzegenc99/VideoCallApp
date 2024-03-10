@@ -30,7 +30,7 @@ Socket.IO: A long polling/WebSocket-based third-party transfer protocol for Node
     These libraries are important tools for providing real-time communication using WebRTC and WebSocket technologies. ***simple-peer is used to establish P2P connections between browsers, while socket.io-client is used to establish a WebSocket connection between the server and the client.*** 
     - **Simple-peer**: simple-peer is a JavaScript library built on the WebRTC protocol. This library creates direct P2P (peer-to-peer) connections between browsers. It can provide various types of communications such as video, audio, and data streams. simple-peer simplifies the complex aspects of WebRTC and enables rapid creation of WebRTC-based applications.
 # Demo 
-You can use web application at https://videotalkapp.netlify.app/
+You can use web application at https://videotalk.netlify.app/
 
 ## Use
 1. When asked for camera or microphone access permission, allow your browser to allow it.
